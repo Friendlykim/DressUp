@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FEC9CB70-31FE-5B92-425F-1AF44F632448}</ProjectGuid>
+    <ProjectGuid>{06FCC9D2-DA4F-5BFF-9245-B33E1539C621}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Timeline</AssemblyName>
@@ -52,6 +52,9 @@
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Animation\AnimationPlayableAsset.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Events\Signals\SignalAsset.cs" />
@@ -725,11 +728,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{1BEEC1DC-2385-3A52-D14A-3814183654A3}</Project>
+      <Project>{89305572-CB74-8DC0-0925-2E3C7F7C81A8}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{E7A19633-A68A-4CA9-6AFB-E51C396AA80A}</Project>
+      <Project>{DB19E4B4-9592-1121-CD9B-FF2564B4CA43}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
