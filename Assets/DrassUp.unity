@@ -1382,9 +1382,24 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1221174122}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f0bea3075cddd14aa2319ea1137ebe9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hairGroup: {fileID: 1221174126}
+  upperGroup: {fileID: 1221174125}
+  bodyGroup: {fileID: 1221174124}
+--- !u!114 &1221174130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221174122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb3284806a40b4c4890df2ad298b403d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   hairGroup: {fileID: 1221174126}
